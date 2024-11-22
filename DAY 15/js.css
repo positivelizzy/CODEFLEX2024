@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 80%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    margin: 20%;
+    border: 2px solid red;
+}
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: x-large;
+    text-align: center;
+    padding: 10px;
+}
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font: bold;
+    text-align: center;
+    padding: 10px;
+}
+
+.container button{
+    background-color: red;
+    border: 2px solid red;
+    border-radius: 5px;
+    padding: .5rem;
+    width: 20%;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 40%;
+    cursor: pointer;
+}

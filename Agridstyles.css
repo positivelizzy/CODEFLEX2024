@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.heading{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 6rem;
+    justify-content: space-between;
+    align-items: center;
+    background-color: blue;
+    border: 5px solid blue;
+}
+
+h1{
+    color: white;
+    font: sans-serif;
+}
+nav{
+    width: 250px;
+    font: sans-serif;
+    font-weight: bold;
+    
+}
+
+nav ul{
+    display: flex;
+    text-decoration: none;
+}
+nav ul li{
+    text-decoration: none;
+    cursor: pointer;
+}
+ul {
+    display: flex;
+    gap: 2rem;
+    padding: .5rem;
+}
+
+li {
+    list-style: none;
+}
+
+nav ul li:hover{
+    background-color: brown;
+    text-decoration: underline;
+    color: hotpink;
+    padding: 4px;
+    border-radius: 10px;
+    transition: .3s ease;
+}
+li a {
+    color: whitesmoke;
+    text-decoration: none;
+    transition: .3s;
+}
+
+h3{
+    font: 2em sans-serif;
+    justify-content: center;
+}
+.main-nav{
+    display: flex;
+    width: 600px;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    background-color: rgb(240, 130, 4);
+    padding: .5rem;
+    margin: 1.5rem;
+    border: 1px solid rgb(240, 130, 4);
+    border-radius: 10px;
+    color: white;
+}
+
+.main-content{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    margin: 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 200px 200px 200px;
+    width: 800px;
+    height: auto;
+    padding: 10px;
+    gap: 5px;
+}
+footer{
+    display: block;
+    background-color: blue;
+    height: 2.5rem;
+    padding: 10px;
+    color: white;
+    align-items: end;
+}
+@media(max-width:760px){
+    .main-content{
+        display: flex;
+        flex-wrap: wrap;
+        cursor: pointer;
+    }
+    nav{
+        display: none;
+        flex-direction:column;
+        gap: 2rem;
+        margin-top: 50px;
+        display: flex;
+    }
+    button{
+        display: inline-block;
+        background-color: brown;
+        border: 1px solid brown;
+    }
+}
+
